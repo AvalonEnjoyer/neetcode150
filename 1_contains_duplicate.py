@@ -4,6 +4,7 @@ class Solution:
         for num in nums:
             if num in nums_set:
                 return True
-            else:
-                nums_set.add(num)
+            nums_set.add(num)
         return False
+    # Time complexity: O(n)
+    # Space complexity: O(n)
