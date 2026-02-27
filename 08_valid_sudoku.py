@@ -18,6 +18,8 @@ class Solution:
                 cols[col].add(value)
                 boxes[box_index].add(value)
         return True
+# Time complexity for all solutions O(1) in this specific case. O(n^2) for a generic sudoku board
+# Space complexity for all solution O(1) in this specific case. O(n^2) for a generic sudoku board
 
 # # Solution 2 - 100% runtime 100% memory
 # class Solution:
